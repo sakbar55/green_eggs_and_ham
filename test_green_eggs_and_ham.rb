@@ -1,8 +1,7 @@
-require 'bundler/setup'
 require 'minitest/autorun'
 require 'minitest/pride'
 
-require 'green_eggs_and_ham'
+require_relative 'green_eggs_and_ham'
 
 class GreenEggsAndHamTest < MiniTest::Test
 
