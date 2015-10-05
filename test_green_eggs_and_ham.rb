@@ -44,7 +44,6 @@ class GreenEggsAndHamTest < MiniTest::Test
   end
 
   def test_07_line_count_should_not_include_blanks
-    skip
     assert_equal 19, @book.lines.count
   end
 
