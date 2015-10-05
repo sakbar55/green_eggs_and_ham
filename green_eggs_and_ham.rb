@@ -7,4 +7,9 @@ class GreenEggsAndHam
   def word_count
     @text.split.count
   end
+
+  def sorted_unique_words
+    words = @text.gsub(/[,.?!]/,"").split
+    words.map { |word| word.downcase }.uniq.sort
+  end
 end
