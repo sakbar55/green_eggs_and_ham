@@ -40,7 +40,6 @@ class GreenEggsAndHamTest < MiniTest::Test
   end
 
   def test_06_how_many_stanzas
-    skip
     assert_equal 6, @book.stanzas.count
   end
 

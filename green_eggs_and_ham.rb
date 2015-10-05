@@ -30,4 +30,8 @@ def frequency_of_unique_words
   words.each { |word| frequency [word.downcase] += 1 }
   frequency
 end
-end 
+
+def stanzas
+  stanzas = @text.split(/\n\n/)
+end
+end
