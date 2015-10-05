@@ -28,7 +28,6 @@ class GreenEggsAndHamTest < MiniTest::Test
   end
 
   def test_05_all_unique_words_and_frequency
-    skip
     expected = {
         "i" => 15, "am" => 2, "sam" => 2, "that" => 3,
         "sam-i-am" => 6, "do" => 11, "not" => 13, "like" => 15,

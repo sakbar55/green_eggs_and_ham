@@ -23,4 +23,11 @@ class GreenEggsAndHam
     words = @text.gsub(/[,.?!]/, "").split
     words.max { |word| word.length }
   end
+
+def frequency_of_unique_words
+  words = @text.gsub(/[,.?!]/, "").split
+  frequency = Hash.new(0)
+  words.each { |word| frequency [word.downcase] += 1 }
+  frequency
 end
+end 
